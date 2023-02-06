@@ -1,0 +1,33 @@
+.options {
+    width: 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: box-shadow 100ms linear;
+}
+
+button:hover {
+    box-shadow: 5px 5px 0px 0px;
+}
+
+.good {
+    background-color: rgb(78, 223, 124);
+}
+
+
+
+.neutral {
+    background-color: rgb(244, 238, 159);
+}
+
+.bad {
+    background-color: rgb(242, 148, 148);
+}
